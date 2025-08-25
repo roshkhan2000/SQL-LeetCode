@@ -4,7 +4,7 @@ SELECT
     patient_name,
     conditions 
 FROM 
-patients
+    patients
 WHERE 
     conditions LIKE "% DIAB1%"
     OR 
