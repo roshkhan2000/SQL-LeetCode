@@ -1,3 +1,4 @@
+/* Write your T-SQL query statement below */
 SELECT 
     v.customer_id,
     count(v.visit_id) as count_no_trans
