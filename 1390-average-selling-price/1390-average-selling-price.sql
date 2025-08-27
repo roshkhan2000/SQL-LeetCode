@@ -1,6 +1,6 @@
 /* Write your T-SQL query statement below */
 SELECT
-   p.product_id,
+    p.product_id,
     ISNULL(
         ROUND(
             CAST(SUM(units * price) AS FLOAT)
