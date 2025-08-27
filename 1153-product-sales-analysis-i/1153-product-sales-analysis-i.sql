@@ -1,4 +1,4 @@
-# Write your MySQL query statement below
+/* Write your T-SQL query statement below */
 SELECT 
     p.product_name,
     s.year,
